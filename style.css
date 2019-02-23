@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: '';
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 408px;
+    margin: 0 auto;
+}
+
+.display {
+    height: 150px;
+    font-size: 50px;
+    text-align: right;
+}
+
+.cell {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: #FAFAFA;
+    color: #000;
+    font-size: 30px;
+    margin: 1px;
+}
+
+.cell:hover {
+    background: #D5D5D5;
+}
